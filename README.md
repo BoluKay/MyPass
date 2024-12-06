@@ -33,8 +33,11 @@ Install required Python libraries using `pip`:
 ```bash
 pip install flask flask-bcrypt flask-wtf
 
+## **Usage Instructions**
 Running the Application
 Start the Flask app:
+
+```bash
 python app.py
 
 Open your browser and navigate to: http://127.0.0.1:5000/
@@ -51,7 +54,6 @@ Route	              Description
 /password-generator	 Generate a secure password.
 
 Project Structure
-
 MyPass/
 ├── app.py                 # Main application file
 ├── database.py            # Script to initialize database
@@ -70,8 +72,6 @@ MyPass/
 │   ├── Password_Generator_Page.png
 │   ├── Add_New_Vault_Item_Page.png
 └── README.md              # Documentation
-
-
 Acknowledgments
 Flask Documentation: https://flask.palletsprojects.com/
 SQLite Documentation: https://www.sqlite.org/
